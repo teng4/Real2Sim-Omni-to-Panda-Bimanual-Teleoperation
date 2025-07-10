@@ -1,0 +1,39 @@
+<launch>
+  <!-- load the controllers -->  
+  <!-- teng4note, customize and set ROS param into ROS server -->
+  <!-- <arg name="publish_rate" default="1000"/> -->
+
+  <!-- note on 20241216, omni_cleftv11_v5v6 skipped, in order to appying same version number. -->
+ 
+  <!-- load the controllers -->  
+  <node name="omni_panda_v2" pkg="real2simpkg" type="omni_panda_v2" output="screen"> 
+    <!-- <param name="publish_rate" value="$(arg publish_rate)"/> -->
+  </node>
+
+
+  <!-- Launch cleftv11 Robot 1 -->
+  <group ns="panda1">
+    <param name="robot_description" command="cat $(find franka_description)/urdfs/fr3_franka_hand_teng4modified1ok.urdf" /> 
+    <!-- /home/teng/catkin_ws4/src/franka_description/urdfs/fr3_franka_hand.urdf -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+    <!-- <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" ns="ooomni" output="screen" /> -->
+    <!-- <node name="robot_state_publisher_cleftv112" pkg="robot_state_publisher" type="robot_state_publisher" ns="cleftv112" output="screen" /> -->
+    <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="robot1_base_transform"
+      args="-0.006 0 0.5 0 3.1415926 0 world panda_link0" />  -->
+      <!-- teng4note 20250131, args="-0.036 ..." will make the scissor right-hand side further to the right on screen. -->
+      <!-- teng4note, static base transform requires to set the "Fixed Frame" in rviz file to be "world" instead of "base". -->
+    <!-- <node name="rviz2" pkg="rviz" type="rviz" args="-d $(find real2simpkg)/launch/omnix2.rviz" required="true" /> -->
+    <!-- $ rosrun rqt_tf_tree rqt_tf_tree -->
+  </group>
+
+  <!-- /home/teng/catkin_ws4/src/real2simpkg/launch/rviz_robot_panda_common.rviz -->
+  <!-- /home/teng/catkin_ws4/src/real2simpkg/launch/visualize_franka_teng4modified.rviz -->
+  <!-- <node name="rviz3" pkg="rviz" type="rviz" args="-d $(find real2simpkg)/launch/visualize_franka_teng4modified.rviz" required="true" > -->
+  <!-- <node name="rviz3" pkg="rviz" type="rviz" args="-d $(find real2simpkg)/launch/robot_teng4modified.rviz" required="true" > -->
+  <!-- <node name="rviz3" pkg="rviz" type="rviz" args="-d $(find franka_description)/rviz/visualize_franka_teng4modified1.rviz" required="true" > -->
+  <!-- <node name="rviz3" pkg="rviz" type="rviz" args="-d $(find franka_description)/rviz/visualize_franka_teng4modified1.rviz" required="true" > -->
+  <!-- <node name="rviz3" pkg="rviz" type="rviz" args="-d $(find franka_description)/rviz/robot_teng4modified1ok.rviz" required="true" > -->
+  <node name="rviz3" pkg="rviz" type="rviz" args="-d $(find franka_description)/rviz/visualize_franka_teng4modified1ok.rviz" required="true" >
+  </node>
+  
+</launch>
