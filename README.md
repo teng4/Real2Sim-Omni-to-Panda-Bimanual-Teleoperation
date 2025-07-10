@@ -1,6 +1,25 @@
 # Real2Sim-Omni-to-Panda-Bimanual-Teleoperation
 Real2Sim Omni-to-Panda Bimanual Teleoperation System.
 
+# Programming Environment and Robot
+
+(1) ROS;
+
+(2) C++;
+
+(3) Real robots: Two Phantom Omni haptic devices;
+
+(4) Sim robots: Two 7DOF Franka Emika Panda robots;
+
+
+# How to use:
+
+1. Download the whole project, which is a typical `catkin_ws`.
+2. Unzip the panda1.zip and panda2.zip, which are the CAD model files for visualization.
+3. `catkin_make`
+4. `roslaunch real2simpkg omni_panda_v1.launch`
+
+
 # About (20250627.1106):
 1. This script is the demo code for real2sim Omni-to-Panda bimanual teleoperation.
 1. A demo video for this script can be found at: https://youtu.be/JBzOnDclYlc
