@@ -1,2 +1,4 @@
+This file was served as a dummy file when uploading empty folders onto GitHub since it does not allow to upload completely empty folders.
+You can delete this file whenever you want, and it will affect the normal function of the whole code project.
 This is a blank text file created by teng4. (2025-07-10)
 
