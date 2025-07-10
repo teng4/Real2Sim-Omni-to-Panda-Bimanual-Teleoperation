@@ -1,0 +1,13 @@
+Header header
+string joint_1_id
+float64 joint_1_angle
+string joint_2_id 
+float64 joint_2_angle
+string joint_3_id
+float64 joint_3_angle
+string joint_4_id
+float64 joint_4_angle
+string joint_5_id
+float64 joint_5_angle
+string joint_6_id
+float64 joint_6_angle
