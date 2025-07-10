@@ -11,6 +11,12 @@ Real2Sim Omni-to-Panda Bimanual Teleoperation System.
 
 (4) Sim robots: Two 7DOF Franka Emika Panda robots;
 
+## Demo video
+
+Here is the demo video for this code project.
+
+[[watch the demo video](https://youtu.be/JBzOnDclYlc)]
+
 
 # How to use:
 
@@ -22,7 +28,6 @@ Real2Sim Omni-to-Panda Bimanual Teleoperation System.
 
 # About (20250627.1106):
 1. This script is the demo code for real2sim Omni-to-Panda bimanual teleoperation.
-1. A demo video for this script can be found at: https://youtu.be/JBzOnDclYlc
 1. All the tools/robots named with "omni11" or "cleft11" are on the righ-hand side (R).
      All the tools/robots named with "omni12" or "cleft12" are on the left-hand side (L).
 1. Assume the real omni devices are publishing their real-time 6D pose data + button state [x,y,z,roll,pitch,yaw,btnState] to ROS topic via
