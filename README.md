@@ -14,12 +14,6 @@ Real2Sim Omni-to-Panda Bimanual Teleoperation System.
 (5) Ubuntu 20.04.6 LTS
 
 
-## Demo video
-
-Here is the demo video for this code project.
-
-[[watch the demo video](https://youtu.be/JBzOnDclYlc)]
-
 
 ## How to use:
 
