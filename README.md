@@ -28,7 +28,7 @@ Real2Sim Omni-to-Panda Bimanual Teleoperation System.
 
 
 # About:
-1. This script is the demo code for `real2sim Omni-to-Panda bimanual teleoperation`.
+1. This code project is the demo code for the paper `Teng Li, Sunny Zhang, Cate Balasubramanian, Thomas Looi, and Dale J Podolsky. “A General Real2Sim Bimanual Teleoperation Framework for Evaluating Surgical Robotic Tool Design”. 2025, pp.1-10. [Under Review]`.
 1. All the tools/robots named with `omni11` or `cleft11` are on the righ-hand side (R).
      All the tools/robots named with `omni12` or `cleft12` are on the left-hand side (L).
 1. Assume the real omni devices are publishing their real-time 6D pose data + button state [x,y,z,roll,pitch,yaw,btnState] to ROS topic via
