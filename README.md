@@ -7,7 +7,7 @@ Real2Sim Omni-to-Panda Bimanual Teleoperation System.
 
 (2) C++;
 
-(3) Real robots: Two Phantom Omni haptic devices;
+(3) Real robots: Two 6DOF Phantom Omni haptic devices;
 
 (4) Sim robots: Two 7DOF Franka Emika Panda robots;
 
@@ -21,8 +21,9 @@ Real2Sim Omni-to-Panda Bimanual Teleoperation System.
 2. Unzip the `panda1.zip` and `panda2.zip`, which are the CAD model files for visualization.
 3. `catkin_make`
 4. `roslaunch real2simpkg omni_panda_v1.launch`
-5. A screenshot when this project running is illustrated below
-<img src="https://github.com/tbs-ualberta/Point-Based-3D-Virtual-Fixture-Generation-Method/blob/4567801b213550be53ece9c4fd57fe2ca269f3fa/20230511_105718_VF_sim_exp_videoAIM2023_ver5_final_screenshot1.png" width="50%" height="50%">
+5. A screenshot when running this project is illustrated below
+<img src="https://github.com/teng4/Real2Sim-Omni-to-Panda-Bimanual-Teleoperation/blob/47cb066351eb1458e4b4867dbe08e369a2febc42/images/real2sim_omni2panda_bitele_v3ok_image1.jpg" width="50%" height="50%">
+
 [[watch the demo video](https://youtu.be/JBzOnDclYlc)]
 
 
