@@ -22,6 +22,8 @@ Real2Sim Omni-to-Panda Bimanual Teleoperation System.
 3. `catkin_make`
 4. `roslaunch real2simpkg omni_panda_v1.launch`
 5. A screenshot when this project running is illustrated below
+<img src="https://github.com/tbs-ualberta/Point-Based-3D-Virtual-Fixture-Generation-Method/blob/4567801b213550be53ece9c4fd57fe2ca269f3fa/20230511_105718_VF_sim_exp_videoAIM2023_ver5_final_screenshot1.png" width="50%" height="50%">
+[[watch the demo video](https://youtu.be/JBzOnDclYlc)]
 
 
 # About:
