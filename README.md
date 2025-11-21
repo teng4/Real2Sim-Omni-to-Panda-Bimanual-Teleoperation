@@ -21,9 +21,10 @@ Real2Sim Omni-to-Panda Bimanual Teleoperation System.
 2. Unzip the `panda1.zip` and `panda2.zip`, which are the CAD model files for visualization.
 3. `catkin_make`
 4. `roslaunch real2simpkg omni_panda_v1.launch`
+5. A screenshot when this project running is illustrated below
 
 
-# About (20250627.1106):
+# About:
 1. This script is the demo code for `real2sim Omni-to-Panda bimanual teleoperation`.
 1. All the tools/robots named with `omni11` or `cleft11` are on the righ-hand side (R).
      All the tools/robots named with `omni12` or `cleft12` are on the left-hand side (L).
