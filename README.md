@@ -170,7 +170,7 @@ For example, if the end effector (EE) of a simulated follower is initialized in 
 
 ## Citation
 
-If you use this code or the associated Real2Sim framework in your research, please cite:
+If you find this project helpful for your research, please consider citing the following paper.
 
 ```text
 Teng Li, Sunny Zhang, Cate Balasubramanian, Thomas Looi, and Dale J. Podolsky.
