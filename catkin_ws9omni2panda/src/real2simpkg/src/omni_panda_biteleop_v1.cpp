@@ -60,11 +60,10 @@
  *
  * Demo video: https://youtu.be/JBzOnDclYlc
  *
- * Cite:
- * Teng Li, Sunny Zhang, Cate Balasubramanian, Thomas Looi, and Dale J. Podolsky. 2026. 
- *  "A Configurable Real2Sim Bimanual Teleoperation Framework for Surgical Robotic Tool 
- *  Design and Evaluation", The International Journal of Medical Robotics and Computer 
- *  Assisted Surgery: e70235. https://doi.org/10.1002/rcs.70235
+ * Cite this project:
+ * [1] Teng Li, Sunny Zhang, Cate Balasubramanian, Thomas Looi, and Dale J. Podolsky. 2026. 
+ *  "A Configurable Real2Sim Bimanual Teleoperation Framework for Surgical Robotic Tool Design and Evaluation", 
+ *  The International Journal of Medical Robotics and Computer Assisted Surgery: e70235. https://doi.org/10.1002/rcs.70235
  * 
  */
 
